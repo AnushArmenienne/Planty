@@ -1,0 +1,8 @@
+[07-Dec-2023 15:35:52 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[07-Dec-2023 15:35:56 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[07-Dec-2023 15:35:58 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[07-Dec-2023 15:43:24 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[07-Dec-2023 15:43:24 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[07-Dec-2023 15:43:24 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[07-Dec-2023 15:43:24 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[07-Dec-2023 15:43:24 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Andranik\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
