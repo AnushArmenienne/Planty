@@ -45,7 +45,9 @@ a {
 }
 
 #menu-item-45 {
-    width: 100px;
-    height: 80px;
-    background-color: red;
+    width: 90px;
+    height: 30px;
+    background-color: #C02E44;
+    color: white
+    ;
 }
