@@ -14,40 +14,47 @@ Updated: 2023-12-07 15:43:24
 .Anush_logo {
     width: 150px;
     height: auto;
-    }
+}
 
 header {
     display: flex;
-    justify-content: space-between 
-    width: 1440px;
+    justify-content: space-between width: 1440px;
     Height: 80px;
-    background-color:white
+    background-color: white
 }
 
 .menu {
     display: flex;
-     gap: 20px;
+    gap: 20px;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.wp_nav_menu
-{display:flex;
+.wp_nav_menu {
+    display: flex;
     justify-content: flex-end;
 }
 
 a {
     text-decoration: none;
+    color: black
 }
 
 #menu-item-45 {
-    width: 90px;
-    height: 30px;
-    background-color: #C02E44;
+    width: 236px;
+    height: 80px;
+    background-color: #DC9F96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#menu-item-45 a {
     color: white
-    ;
 }
