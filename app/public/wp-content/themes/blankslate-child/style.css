@@ -51,10 +51,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 #menu-item-45 a {
     color: white
+}
+
+#menu-item-46 {
+    width: 236px;
+    height: 80px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
 }
