@@ -17,17 +17,16 @@ Updated: 2023-12-07 15:43:24
 }
 
 header {
-    display: flex;
-        justify-content: space-between width: 1440px;
-    Height: 50px;
-    background-color: white
+
+    background-color: white;
+    padding: 0 !important;
 }
 
 .menu {
     display: flex;
-     gap: 110px;
+    gap: 110px;
 
-       
+
 }
 
 .copyright {
@@ -39,14 +38,13 @@ header {
 
 .wp_nav_menu {
     display: flex;
-        justify-content: end;
+    justify-content: end;
 }
 
 a {
     text-decoration: none;
     font-family: syne;
     color: black
-    
 }
 
 #menu-item-45 {
@@ -56,20 +54,24 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-    
+
+
 }
 
 #menu-item-45 a {
     color: white
-    }
+}
 
 #menu-item-46 {
     width: 236px;
     height: 80px;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+
+.entry-title {
+
+    display: none !important;
 }
