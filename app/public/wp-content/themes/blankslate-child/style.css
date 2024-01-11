@@ -76,7 +76,53 @@ a {
     display: none !important;
 }
 
+
+
+
+.champ_nom {
+
+
+    height: 60px;
+    border: white;
+    border-radius: 100px;
+
+}
+
+
+.champ_email {
+
+    height: 60px;
+    border: white;
+}
+
+.champ_message {
+
+    height: 160px;
+    width: 300px;
+    border: white;
+}
+
+
+
 .bouton_envoyer {
 
-    border: 2px solid yellow;
+    height: 50px;
+    border: white;
+    color: white;
+    background-color: #E0B9B4;
+    display: block;
+    margin: auto;
+    width: 140px;
+}
+
+
+
+.bouton_envoyer:hover {
+    background-color: #C02E44;
+}
+
+
+
+.admin {
+    border: 2px solid red;
 }
