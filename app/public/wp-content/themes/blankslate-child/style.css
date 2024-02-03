@@ -11,7 +11,30 @@ Updated: 2023-12-07 15:43:24
 
 */
 
-.Anush_logo {
+
+
+
+@media screen and (max-width: 600px) {
+    .menu {
+
+        width: 180px;
+        height: 50px;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+.logo {
     width: 220px;
     height: auto;
 }
@@ -20,31 +43,28 @@ header {
 
     background-color: white;
     padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-title {
+    /*  Masquer les titres de la page*/
+
+    display: none !important;
 }
 
 .menu {
     display: flex;
-    gap: 110px;
-
-
-}
-
-.copyright {
-    display: flex;
-    flex-direction: end;
+    align-items: center;
     justify-content: center;
-
-}
-
-.wp_nav_menu {
-    display: flex;
-    justify-content: end;
+    height: 48px;
 }
 
 a {
     text-decoration: none;
     font-family: syne;
-    color: black
+    color: black;
 }
 
 #menu-item-45 {
@@ -54,13 +74,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 #menu-item-45 a {
     color: white
 }
+
+#menu-item-45:hover {
+
+    background-color: #C02E44;
+}
+
 
 #menu-item-46 {
     width: 236px;
@@ -68,24 +92,35 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.pied_de_page {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
 
 }
 
-.entry-title {
+.pied_de_page a {
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
 
-    display: none !important;
 }
 
 
+/*  La page Nous rencontrer/ Formulaire Nous contacter*/
 
 
 .champ_nom {
 
-
     height: 60px;
     border: white;
-    border-radius: 100px;
-
+    color: white !important;
 }
 
 
@@ -100,6 +135,7 @@ a {
     height: 160px;
     width: 300px;
     border: white;
+    margin-top: 20px;
 }
 
 
@@ -113,8 +149,8 @@ a {
     display: block;
     margin: auto;
     width: 140px;
+    margin-top: 30px;
 }
-
 
 
 .bouton_envoyer:hover {
@@ -123,6 +159,98 @@ a {
 
 
 
-.admin {
-    border: 2px solid red;
+/*  La page COMMANDER*/
+
+.inputs {
+    /*  Les cases*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.inputs input {
+    width: 39px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_fraise {
+    height: 175px !important;
+    width: auto;
+}
+
+.inputs img {
+    width: 200px;
+    object-fit: cover;
+    height: 300px;
+}
+
+
+/*  FORMULAIRE de la page COMMANDER*/
+
+.commander {
+    /*  tout le formulaire  */
+    display: flex;
+    gap: 40px;
+}
+
+.champs_commander {
+    /*  les cases du formulaire  */
+
+    height: 60px;
+    border: white;
+    color: white;
+}
+
+
+.commander .custom-label {
+    /* tous les titres du formulaires */
+    color: white;
+
+}
+
+.custom-label input {
+    /*  pour que les cases ne soient pas coller au texte*/
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.title {
+    /* Les titres 'Vos infos' et 'Livraisons' */
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.barre {
+    border: 1.1px solid white;
+}
+
+.bouton_commander {
+
+    height: 50px;
+    border: white;
+    color: white;
+    background-color: #E0B9B4;
+    display: block;
+    margin: auto;
+    width: 140px;
+    margin-top: 30px;
+}
+
+.bouton_commander:hover {
+    background-color: #C02E44;
+
 }

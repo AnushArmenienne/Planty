@@ -11,7 +11,7 @@
 <header id="header" role="banner">
 <div id="branding">
 <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-<img class="Anush_logo" src="../wp-content/themes/blankslate-child/images/Logo_source.png" alt="Logo">
+<img class="logo" src="../wp-content/themes/blankslate-child/images/Logo_source.png" alt="Logo">
 </div>
 <div id="site-description"<?php if ( !is_single() ) { echo ' itemprop="description"'; } ?>><?php bloginfo( 'description' ); ?></div>
 </div>

@@ -1,2 +1,5 @@
 2023/12/27 18:00:38 [alert] 27764#27768: worker process 23284 exited with code C0000142
 2023/12/27 18:00:38 [alert] 27764#27768: could not respawn worker
+2024/01/16 16:06:39 [alert] 39088#23024: OpenEvent("ngx_master_53464") failed (2: The system cannot find the file specified)
+2024/02/02 03:25:54 [error] 24712#16936: *24933 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-json/elementor/v1/kit-elements-defaults HTTP/1.0", upstream: "fastcgi://127.0.0.1:10008", host: "planty.local", referrer: "http://planty.local/wp-admin/post.php?post=8&action=elementor"
+2024/02/02 03:25:54 [error] 24712#16936: *24966 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:10008", host: "planty.local", referrer: "http://planty.local/wp-admin/post.php?post=8&action=elementor"
