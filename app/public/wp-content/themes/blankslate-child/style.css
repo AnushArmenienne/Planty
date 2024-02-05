@@ -11,21 +11,42 @@ Updated: 2023-12-07 15:43:24
 
 */
 
+@media screen and (max-width: 767px) {
+    .barre {
+        display: none;
 
+    }
 
+    .commander {
+        /*  tout le formulaire  */
 
-@media screen and (max-width: 600px) {
-    .menu {
-
-        width: 180px;
-        height: 50px;
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: center;
     }
 }
+
+@media screen and (max-width: 787px) {
+
+    #menu-item-45 {
+        width: 136px;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    #menu-item-45 {
+        width: 66px;
+
+    }
+
+}
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
     .logo {
@@ -44,6 +65,7 @@ header {
     background-color: white;
     padding: 0 !important;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -59,12 +81,17 @@ header {
     align-items: center;
     justify-content: center;
     height: 48px;
+    flex-wrap: wrap-reverse;
 }
 
 a {
     text-decoration: none;
     font-family: syne;
     color: black;
+}
+
+.menu-item-admin {
+    margin-right: 50px;
 }
 
 #menu-item-45 {
@@ -96,8 +123,7 @@ a {
 
 .pied_de_page {
     display: flex;
-    flex-direction: end;
-    justify-content: center;
+     justify-content: center;
     background-color: white;
     padding: 20px;
 
@@ -167,6 +193,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -178,16 +205,35 @@ a {
     margin-right: auto;
 }
 
-.input_fraise {
-    height: 175px !important;
-    width: auto;
+.inputs .img_1 {
+    background-image: url("http://planty.local/wp-content/uploads/2023/12/Group-12-1.png");
+
 }
 
-.inputs img {
-    width: 200px;
-    object-fit: cover;
-    height: 300px;
+.inputs .img_2 {
+    background-image: url("http://planty.local/wp-content/uploads/2023/12/Group-13.png");
+
 }
+
+.inputs .img_3 {
+    background-image: url("http://planty.local/wp-content/uploads/2023/12/Group-15-1.png");
+
+}
+
+.inputs .img_4 {
+    background-image: url("http://planty.local/wp-content/uploads/2023/12/Group-14-1-1.png");
+
+}
+
+
+.bloc_commander {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 205px;
+    margin-bottom: 15px;
+}
+
 
 
 /*  FORMULAIRE de la page COMMANDER*/
@@ -196,6 +242,7 @@ a {
     /*  tout le formulaire  */
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .champs_commander {
@@ -236,6 +283,7 @@ a {
 
 .barre {
     border: 1.1px solid white;
+
 }
 
 .bouton_commander {

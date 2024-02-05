@@ -23,7 +23,7 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 function ajouter_admin_dans_menu($items, $args) {
     if (is_user_logged_in() && $args->theme_location == 'main-menu') {
-        $admin_link = '<li class="menu-item"><a href="http://localhost/Planty/wp-admin/">Admin</a></li>';
+        $admin_link = '<li class="menu-item menu-item-admin"><a href="http://localhost/Planty/wp-admin/">Admin</a></li>';
         $menu_items = explode('</li>', $items);
         $insert_index = 1;
         array_splice($menu_items, $insert_index, 0, $admin_link);
