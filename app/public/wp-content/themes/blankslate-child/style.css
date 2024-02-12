@@ -28,7 +28,7 @@ Updated: 2023-12-07 15:43:24
 
     #menu-item-45 {
         width: 136px;
-        
+
 
     }
 
@@ -60,14 +60,15 @@ Updated: 2023-12-07 15:43:24
     height: auto;
 }
 
-header {
+#header {
 
     background-color: white;
-    padding: 0 !important;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 0 0 0 !important;
+
+}
+
+.header {
+    display: none;
 }
 
 .entry-title {
@@ -123,7 +124,7 @@ a {
 
 .pied_de_page {
     display: flex;
-     justify-content: center;
+    justify-content: center;
     background-color: white;
     padding: 20px;
 
